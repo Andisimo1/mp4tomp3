@@ -73,7 +73,7 @@
             function logout() {
             AWS.config.credentials = null;
             localStorage.clear();
-            window.location.href = "https://andydim.auth.${region}.amazoncognito.com/logout?client_id=${clientId}&logout_uri=https%3A%2F%2Fandydim.com";
+            window.location.href = "https://andydim.auth.${region}.amazoncognito.com/logout?client_id=${clientId}&logout_uri=https%3A%2F%2Fandydim.click";
             }
          
             $(document).ready(function() {
